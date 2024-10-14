@@ -4,7 +4,7 @@ from point_allocation_algorithm import calculate_points
 import random
 
 st.set_page_config(page_title="Urban Snap Leaderboard", layout="wide")
-logo_path = r'C:\Users\chiki\OneDrive\Desktop\US\Leaderboard\LOGO.jpg' 
+logo_path = 'LOGO.jpg' 
 st.image(logo_path, width=200) 
 
 def load_data():
